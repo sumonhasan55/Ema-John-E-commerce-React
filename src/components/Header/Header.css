@@ -1,0 +1,16 @@
+.navbar{
+    background-color: black;
+   justify-content: space-between;
+   padding-left: 140px;
+   padding-right: 140px;
+
+}
+.navbar a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: white;
+    font-size: 18px;
+}
+.navbar a:hover{
+    color: darkorange;
+}

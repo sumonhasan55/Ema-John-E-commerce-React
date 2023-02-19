@@ -1,6 +1,7 @@
 .shop-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
+    margin-top: 50px;
 
 }
 
@@ -24,14 +25,20 @@
   }
 @media only screen and (max-width: 500px) {
 .shop-container {
-        display: inline-flex
-        
+      
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+
      
     }
   }
   .cart-container{
-    background-color: coral;
+    background-color: #FFE0B3;
     padding: 10px;
     border-radius: 12px;
+    position: sticky;
+    bottom: 0;
+    
   }
 

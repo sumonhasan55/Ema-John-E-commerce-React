@@ -4,7 +4,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div>
+        <div className='header-container fixed-top'>
 
             <nav className='navbar'>
                 <img src={Logo} alt="" />
